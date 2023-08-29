@@ -1,4 +1,4 @@
-## Server.cfg Template 
+# Server.cfg Template 
 
 This docker image allows you to run a server for FiveM, a modded GTA multiplayer program.
 Upon first run, the configuration is generated in the host mount for the `/config` directory.
@@ -21,3 +21,6 @@ The web UI can be enabled by not passing any `+exec` config to the FXServer bina
 - `NO_DEFAULT_CONFIG` - Optional. Set to any non-zero value to disable the default exec config. This is required for txAdmin.
 - `NO_LICENSE_KEY` - Optional. Set to any non-zero length value to disable specifying the license key in the environment. Useful if your license key is in a config file.
 - `NO_ONESYNC` - Optional. Set to any non-zero value to disable OneSync being added to the default configs.
+
+## Check the discord
+--https://discord.gg/WrQmADK3
