@@ -1,8 +1,8 @@
 # Server.cfg Template 
 
-This docker image allows you to run a server for FiveM, a modded GTA multiplayer program.
-Upon first run, the configuration is generated in the host mount for the `/config` directory.
-The container should be stopped so fivem can be configured to the user requirements in the `server.cfg`.
+This template allows you to run a server for FiveM.
+Upon first run, the FiveM.exe or run.sh and create a server, when you haven't one.
+Then goto your selected Folder in txAdmin Setup and replace the server.cfg with this files and folders 
 
 ## License Key
 
